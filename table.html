@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Table</title>
+  <style>
+    * {
+      font-family: Koho, sans-serif;
+    }
+    div, p, h1 {
+      color: red;
+    }
+    body table {
+      /* width: 50%; */
+    }
+    main table {
+      /* width: 50%; */
+    }
+    table {
+      width: 100%;
+    }
+    #tableau {
+
+    }
+    .striped {
+
+    }
+    td {
+      border: 1px solid #000;
+    }
+    td:first-child {
+      background-color: #f00;
+    }
+    td:last-child {
+      background-color: #0f0;
+    }
+    td:nth-child(2) {
+      background-color: #0f0;
+    }
+    [name="lienaccueil"] {
+      color: #f00;
+    }
+    [class="lienaccueil"] {
+      color: #f00;
+    }
+    a {
+      position: relative;
+    }
+    a[name="lienaccueil"] {
+      color: #f00;
+    }
+    a[name~="lien"] {
+      color: #0f0;
+    }
+    a[name|="lien"] {
+      color: #0f0;
+    }
+    .lightgrey {
+      background-color: lightgrey;
+    }
+    .red {
+      background-color: #f00;
+    }
+    a::before {
+      content: 'before ';
+      width: 50%;
+      position: absolute;
+      bottom: 0;
+      border: 2px solid #f00;
+    }
+    a::after {
+      content: 'after ';
+      width: 50%;
+      position: absolute;
+      bottom: 0;
+      border: 2px solid #f00;
+    }
+  </style>
+</head>
+<body class="striped">
+  <main>
+  <a href="index.html" name="lienaccueil">page d'accueil</a>
+  <a href="about.html" name="lien">page présentation</a>
+  <a href="contact.html" name="lien-contact">page contact</a>
+  <table id="tableau">
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+      </tr>
+      <tr class="lightgrey red">
+        <td colspan="2">1</td>
+        <td colspan="2">1</td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td colspan="3">1</td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td colspan="3">1</td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td colspan="3">1</td>
+      </tr>
+    </tbody>
+  </table>
+  <table>
+    <thead>
+      <tr>
+        <td>ID</td>
+        <td>Firstname</td>
+        <td>Lastname</td>
+        <td>Actions</td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>#1</td>
+        <td>John</td>
+        <td>Doe</td>
+        <td>
+          <div>
+            <button>Editer</button>
+            <button>Supprimer</button>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <iframe src="htttps://ifran.ci" width="700" frameborder="0"></iframe>
+</main>
+</body>
+</html>
