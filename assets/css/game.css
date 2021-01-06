@@ -22,6 +22,9 @@ body {
   width: var(--path-size);
   height: var(--path-size);
   background-color: var(--violet);
+  background-image: url(../images/sprites_texture.svg);
+  background-position: left 350px, bottom 0;
+  background-repeat: no-repeat;
 }
 
 .path-1 {
