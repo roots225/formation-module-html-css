@@ -1,0 +1,222 @@
+:root {
+  --violet: violet;
+  --path-size: 50px;
+  --container-size: 600px;
+}
+
+body {
+  background-color: rgba(255, 0, 0, 0.6)
+}
+
+
+.container {
+  position: relative;
+  width: var(--container-size);
+  height: var(--container-size);
+  background-image: url(../images/lava.svg);
+  margin: 0 auto;
+}
+
+.chemin-violet {
+  position: absolute;
+  display: inline-block;
+  width: var(--path-size);
+  height: var(--path-size);
+  background-color: var(--violet);
+}
+.path-1 {
+  left: 275px;
+  bottom: 0;
+}
+.path-2 {
+  left: 275px;
+  bottom: 50px;
+}
+.path-3 {
+  left: 225px;
+  bottom: 50px;
+}
+.path-4 {
+  left: 175px;
+  bottom: 50px;
+}
+.path-5 {
+  left: 125px;
+  bottom: 50px;
+}
+.path-6 {
+  left: 125px;
+  bottom: 100px;
+}
+
+.path-7 {
+  left: 275px;
+  bottom: 100px;
+}
+.path-8 {
+  left: 275px;
+  bottom: 150px;
+}
+.path-9 {
+  left: 325px;
+  bottom: 150px;
+}
+.path-10 {
+  left: 375px;
+  bottom: 150px;
+}
+.path-11 {
+  left: 375px;
+  bottom: 100px;
+}
+.path-12 {
+  left: 425px;
+  bottom: 100px;
+}
+.path-13 {
+  left: 475px;
+  bottom: 100px;
+}
+.path-14 {
+  left: 475px;
+  bottom: 150px;
+}
+.path-15 {
+  left: 475px;
+  bottom: 200px;
+}
+.path-16 {
+  left: 475px;
+  bottom: 250px;
+}
+.path-17 {
+  left: 425px;
+  bottom: 250px;
+}
+.path-18 {
+  left: 375px;
+  bottom: 250px;
+}
+.path-19 {
+  left: 350px;
+  bottom: 250px;
+}
+.path-20 {
+  left: 325px;
+  bottom: 250px;
+}
+
+.path-21 {
+  left: 275px;
+  bottom: 250px;
+}
+.path-22 {
+  left: 225px;
+  bottom: 250px;
+}
+.path-23 {
+  left: 175px;
+  bottom: 250px;
+}
+.path-24 {
+  left: 125px;
+  bottom: 250px;
+}
+.path-25 {
+  left: 75px;
+  bottom: 250px;
+}
+.path-26 {
+  left: 75px;
+  bottom: 300px;
+}
+.path-27 {
+  left: 75px;
+  bottom: 350px;
+}
+.path-28 {
+  left: 75px;
+  bottom: 400px;
+}
+.path-29 {
+  left: 75px;
+  bottom: 450px;
+}
+.path-30 {
+  left: 75px;
+  bottom: 500px;
+}
+
+.path-31 {
+  left: 125px;
+  bottom: 500px;
+}
+.path-32 {
+  left: 175px;
+  bottom: 500px;
+}
+.path-33 {
+  left: 225px;
+  bottom: 500px;
+}
+.path-34 {
+  left: 225px;
+  bottom: 450px;
+}
+.path-35 {
+  left: 275px;
+  bottom: 450px;
+}
+.path-36 {
+  left: 325px;
+  bottom: 450px;
+}
+.path-37 {
+  left: 325px;
+  bottom: 500px;
+}
+.path-38 {
+  left: 375px;
+  bottom: 500px;
+}
+.path-39 {
+  left: 425px;
+  bottom: 500px;
+}
+.path-40 {
+  left: 475px;
+  bottom: 500px;
+}
+
+.path-41 {
+  left: 275px;
+  bottom: 300px;
+}
+.path-42 {
+  left: 275px;
+  bottom: 350px;
+}
+.path-43 {
+  left: 325px;
+  bottom: 350px;
+}
+.path-44 {
+  left: 375px;
+  bottom: 350px;
+}
+.path-45 {
+  left: 425px;
+  bottom: 350px;
+}
+.path-46 {
+  left: 425px;
+  bottom: 400px;
+}
+.path-47 {
+  left: 475px;
+  bottom: 400px;
+}
+.path-48 {
+  left: 425px;
+  bottom: 300px;
+}

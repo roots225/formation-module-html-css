@@ -164,7 +164,6 @@ main section {
   }
 }
 
-/* SECTION SERVICES */
 .services-section-header {
   display: flex;
   justify-content: space-between;
@@ -178,7 +177,6 @@ main section {
 .services-section-header .section-header-title h2 {
   margin-top: 0;
 }
-/* FIN SECTION SERVICES */
 
 article.service-item {
   margin-bottom: 20px;
@@ -269,17 +267,15 @@ footer {
 .bounce {
   position: absolute;
 }
-
 .bounce:hover {
   animation-name: bounce;
   animation-duration: 0.8s;
   animation-iteration-count: infinite;
-  animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 @keyframes bounce {
   0%, 100% {
-    transform: translateY(0) scale(1.5);
+    transform: translateY(0);
   }
   30% {
     transform: translateY(-30px);

@@ -213,13 +213,20 @@ footer {
 
 .bounce {
   position: absolute;
-  &:hover {
-    animation: 0.8s ease-in-out 0s infinite;
-  }
+  
+}
+.bounce:hover {
+  // animation: 0.8s ease-in-out 0s infinite;
+  animation-name: bounce;
+  animation-duration: 0.8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 @keyframes bounce {
-  0%, 100% { transform: translateY(0);}
+  0%, 100% { 
+    transform: translateY(0) scale(1.5);
+  }
   30% {transform: translateY(-30px);}
   60% {transform: translateY(10px);}
   80% {transform: translateY(-10px);}
