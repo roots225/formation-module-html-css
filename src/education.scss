@@ -1,0 +1,307 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: Open Sans;
+
+}
+/*header debut*/
+a{
+text-decoration: none;
+color: white
+ }
+ li{
+ 	list-style: none;
+ }
+ ul{
+ 	display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+   padding: 0;
+ }
+
+
+
+
+
+header{
+	background-color: #6600ff
+}
+
+.flex{
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px 0 15px;
+  
+}
+@media screen and (min-width: 1200px) {
+  .flex {
+    width: 80%;
+  }
+}
+
+.barre_menu{
+	/*border: 2px solid black;*/
+	display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+.barre_menu ul li {
+	padding: 10px 15px;
+}
+
+
+.logo{
+	/*border: 2px solid black;*/
+	width: 100px;
+}
+
+
+.menu{
+	/*border: 2px solid black;*/
+	margin-top: 15px
+
+}
+
+/* debut classe de tout les boutons*/ 
+.SignIn {
+  background-color: #eb5757;
+  border: 7px solid #eb5757;
+  border-radius: 20px;
+  color: white;
+}
+
+.SignIn:hover{
+	background-color: black;
+	border: 7px solid black;
+  	border-radius: 20px;
+}
+/* fin classe de tout les boutons*/
+
+.corps_header{
+	/*border: 2px solid black;*/
+	display: flex;
+	justify-content: space-between;
+  color: white;
+  flex-wrap: wrap;
+}
+
+
+.text1{
+	/*border: 2px solid black;*/
+	padding-top: 90px
+}
+
+/*fin header*/
+/* debut main*/
+
+
+/*le carré qui chevauche*/
+
+.petit_carre{
+  height: 170px;
+	width: 250px;
+	text-align: center;
+	color: #fff;
+	border-radius: 10px;
+	background-color: #eb5757;
+	// position: absolute;
+	 justify-content: center;
+	// top: 480px;
+  //   left: 350px;
+  box-shadow: 0px -10px 0px rgba(0,0,0,1);
+  margin-top: -60px;
+  @media screen and (max-width: 768px) {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
+.input{
+	background:url(images/clic1.png) right no-repeat;
+	background-color: white;
+	border:none;
+	border-radius: 50px;
+	height: 30px;
+
+}
+
+.petit-trait {
+  background-color: white;
+  border: 1px solid white;
+  width: 70px;
+  position: relative;
+  left: 90px;
+}
+
+
+.make_it{
+	color: #ffaaab
+}
+
+ /*fin carré*/
+.text2{
+	/*border:2px solid black;*/
+	text-align: center;
+	// padding-left: 65%;
+	font-style: italic;
+	color: #919191;
+}
+
+
+/*première ligne du body*/
+.steph{
+	color: #fb8122
+}
+
+
+.points{
+	display: inline-flex;
+}
+
+
+.point{
+	position: relative;
+	bottom: 50px;
+	color: #fed9bc
+}
+
+.pointm{
+	position: relative;
+	bottom: 50px;
+	color: #fb8122
+}
+
+
+ .ligne2{
+ 	display: flex;
+  justify-content: space-between;
+ }
+
+ .ligne2 h6 {
+ 	color: #c6c6c6
+ }
+
+
+ .text3{
+ 	padding-top: 70px
+ }
+
+
+
+.petit-text h6 {
+	color: #c6c6c6
+}
+
+.rond1{
+	width: 150px;
+	height:150px;
+	border-radius: 100px;
+	background-color: #4bd2ff;
+	box-shadow: 0px 0px 50px #4bd2ff;
+}
+
+
+
+
+.rond2{
+	width: 150px;
+	height:150px;
+	border-radius: 100px;
+	background-color: #694bff;
+	text-align: center;
+	box-shadow: 0px 0px 50px #694bff;
+}
+
+.rond3{
+	width: 150px;
+	height:150px;
+	border-radius: 100px;
+	background-color: #ffb14b;
+	text-align: center;
+	box-shadow: 0px 0px 50px #ffb14b;
+}
+
+
+
+
+.lillog1{
+	margin-top: 15px;
+	margin-left: 10px;
+}
+
+.lillog2{
+	margin-top: 15px
+}
+
+.lillog3{
+	margin-top: 15px
+}
+
+
+
+
+.petit-text{
+	position: relative;
+	// right: 30px;
+	text-align: center;
+}
+
+.ligne3{
+  padding-top: 100px;
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+/*fin main*/
+
+
+/*debut footer*/
+
+footer{
+	color: grey
+}
+
+footer li {
+margin: 10px;
+font-size: 10px
+}
+
+
+.end {
+	display: flex;
+	justify-content: space-between;
+}
+div {
+  box-sizing: border-box;
+}
+
+img {
+  width: 100% !important;
+}
+.position-relative {
+  position: relative !important;
+  flex-wrap: wrap;
+}
+.cercle {
+  text-align: center;
+  img {
+    height: 100px;
+    width: 100px;
+  }
+  .rond {
+    @media screen and (max-width: 768px) {
+      width: 100px;
+      height: 100px;
+      display: inline-block;
+    }
+  }
+  .petit-text {
+    @media screen and (max-width: 768px) {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
