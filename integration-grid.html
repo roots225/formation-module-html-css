@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>INTEGRATION AVEC CSS GRID</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<!-- <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"> -->
+  <link rel="stylesheet" href="assets/css/integration-grid.css">
+</head>
+<body>
+  <main>
+    <section id="" class="page-1">
+      <div class="grid-container">
+        <div class="acompte">
+          <div class="label">Solde</div>
+          <div class="amount">FCFA 500.000</div>
+        </div>
+        <div class="card-infos">
+          <div class="mastercard"></div>
+          <div class="small-mastercard"></div>
+        </div>
+        <div class="transaction-buttons" onclick="">
+          <button class="button active">Debit</button>
+          <button class="button">Credit</button>
+        </div>
+        <div class="transactions-history debit active">
+          <div class="history">
+            <div class="devise">Fcfa</div>
+            <div class="description">
+              <h4>Shopping</h4>
+              <p>Achat de meuble</p>
+            </div>
+            <div class="price">
+              <span class="success">- FCFA100.000</span>
+              <span class="danger"></span>
+            </div>
+          </div>
+        </div>
+        <div class="transactions-history credit">
+          <div class="history">
+            <div class="devise">Fcfa</div>
+            <div class="description">
+              <h4>Shopping</h4>
+              <p>Achat de meuble</p>
+            </div>
+            <div class="price">
+              <span class="success">- FCFA100.000</span>
+              <span class="danger"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+  <script>
+    let buttons = document.querySelectorAll('.transaction-buttons button');
+    buttons.forEach(function (item) {
+      item.addEventListener('click', function() {
+        clearActive()
+        this.classList.add('active')
+      })
+    })
+
+    function clearActive () {
+      buttons.forEach(function (item) {
+        item.classList.remove('active')
+      })
+    }
+  </script>
+</body>
+</html>

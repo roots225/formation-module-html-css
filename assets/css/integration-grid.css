@@ -1,0 +1,93 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.page-1 {
+  background-color: #000;
+  color: #fff;
+}
+
+.grid-container {
+  display: grid;
+  row-gap: 10px;
+}
+
+h1, h2, h3, h4, h5, p {
+  margin: 0;
+  padding: 0;
+}
+
+.acompte {
+  text-align: center;
+  padding: 15px 15px 0 15px;
+}
+
+.acompte .label {
+  color: #9e9da3;
+}
+
+/* CARDS INFORMATIONS */
+.card-infos {
+  position: relative;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  column-gap: 10px;
+  overflow: hidden;
+  padding: 0 15px;
+}
+
+.card-infos .mastercard {
+  height: 150px;
+  border-radius: 25px;
+  background: radial-gradient(#8d52b7, #4b33a5);
+}
+
+.card-infos .small-mastercard {
+  position: absolute;
+  top: 25px;
+  right: -230px;
+  height: 100px;
+  border-radius: 25px;
+  background: radial-gradient(#8d52b7, #4b33a5);
+}
+
+.card-infos .small-mastercard:before {
+  content: "";
+  width: 300px;
+  position: relative;
+  height: 100%;
+  display: block;
+}
+
+/* END CARDS INFORMATIONS */
+.transaction-buttons {
+  background-color: #6034a7;
+  width: 70%;
+  margin: 0 auto;
+  border-radius: 25px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  padding: 5px;
+  margin: 25px auto;
+}
+
+/* BUTTONS */
+.button {
+  border: 0;
+  border-radius: 25px;
+  padding: 10px 25px;
+  font-size: 1.2em;
+  background-color: transparent;
+  color: #fff;
+}
+
+.button.active {
+  background-color: #000;
+}
+
+/* END BUTTONS */
+
+/*# sourceMappingURL=integration-grid.css.map */

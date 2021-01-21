@@ -1,0 +1,30 @@
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(5, 100px);
+  grid-template-rows: 100px;
+  grid-column-start: 200px;
+  grid-column-end: span 3;
+  grid-row-start: 150px;
+  grid-row-end: 250px;
+}
+
+.grid-item {
+  background-color: rgb(100, 42, 42);
+  border: 1px solid #fff;
+  color: #fff;
+}
+.grid-item:nth-child(2) {
+  margin: 0 5px;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr calc(100vw - 100px);
+  grid-gap:10px
+}
+.un {
+  background-color: #f00;
+}
+.deux {
+  background-color: #0f0;
+}
